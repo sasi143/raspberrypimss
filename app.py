@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return "App running successfully ssekhar"
+  return "App running successfully sadam"
   
 @app.route('/test')
 def index1():
-  return "How are you doing buddy"
+  return "How are you doing aditya"
 
   
 if __name__ == "__main__":
